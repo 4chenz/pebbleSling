@@ -10,7 +10,7 @@ function rimg() {
 	for (var i = items.length; i--;) {
 		var img = items[i]
 		var src = img.src.replace(/.*?:\/\//g, "");
-		img.src= "/pebbleSling/splits/"+String(getRandomIntInclusive(0,655)).padStart(4, '0')+".png";;
+		img.src= "/pebbleSling/splits/"+String(getRandomIntInclusive(0,654)).padStart(4, '0')+".png";;
 	}
 
 }
