@@ -23,6 +23,9 @@ body{
 .column{
   border: 15px solid white ;
 }
+img {
+  min-height: 500px;
+}
 .stone_link {
 	font-family: 'Catatan Perjalanan';
 	-webkit-transform: rotate(-90deg);
@@ -30,8 +33,8 @@ body{
 	-o-transform:      rotate(-90deg);
 	-ms-transform:     rotate(-90deg);
 	transform:         rotate(-90deg);
-	font-size: 28px;
-	padding-left:815px;
+	font-size: 40px;
+	padding-left:806px;
 	margin-top: 150px;
 	position: absolute
 }
