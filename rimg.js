@@ -5,12 +5,12 @@ function getRandomIntInclusive(min, max) {
 	return Math.floor(Math.random() * (max - min + 1) + min); //The maximum is inclusive and the minimum is inclusive 
 }
 
-function rimg() {
+function rimg(start,end) {
 	var items = document.querySelectorAll("img");
 	for (var i = items.length; i--;) {
 		var img = items[i]
 		var src = img.src.replace(/.*?:\/\//g, "");
-		img.src= "/pebbleSling/splits/"+String(getRandomIntInclusive(0,877)).padStart(4, '0')+".png";;
+		img.src= "/pebbleSling/splits/"+String(getRandomIntInclusive(start,end)).padStart(4, '0')+".png";;
 	}
 
 }

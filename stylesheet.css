@@ -16,18 +16,18 @@ body{
 }
 
 .tripple {
-   display: flex;
-  align-self: flex-start;  
-  background:white;
+	display: flex;
+	align-self: flex-start;  
+	background:white;
 }
 .column{
   border: 15px solid white ;
 }
 img {
-  min-height: 500px;
-  min-width: 500px;
-  max-height: 500px;
-  max-width: 500px;
+	min-height: 500px;
+	min-width: 500px;
+	max-height: 500px;
+	max-width: 500px;
 }
 .stone_link {
 	font-family: 'Catatan Perjalanan';
@@ -38,6 +38,10 @@ img {
 	transform:         rotate(-90deg);
 	font-size: 40px;
 	padding-left:806px;
-	margin-top: 150px;
+	margin-top: 120px;
 	position: absolute
+}
+a:link a:visited {
+	color: black;
+	text-decoration: none;
 }

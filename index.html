@@ -7,14 +7,14 @@
 	<link href="stylesheet.css" rel="stylesheet">
 	<script src="rimg.js"> </script>
 
-	<body onload="rimg();">
+	<body onload="rimg(0,654);">
 </head>
 <body>
 <div class="unused">
 	<div class="tripple">
 		<div class="column">
 			<img src="" class="myimg">
-			<p class="stone_link">stonetoss.com</p>
+			<p class="stone_link"><a href="http://stonetoss.com/">stonetoss.com</a></p>
 		</div>
 		<div class="column">
 			<img src="" class="myimg">
@@ -24,7 +24,9 @@
 		</div>
 	</div>
 	<br>
-	<button onclick="rimg();">random</button>
+	<button onclick="rimg(0,654);">random ("new" template)</button>
+	<button onclick="rimg(0,877);">random (include all/old template)</button>
+	<button onclick="rimg(655,877);">random (old only)</button>
 </div>
 </body>
 </html>
