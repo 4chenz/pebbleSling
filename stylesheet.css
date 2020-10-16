@@ -1,0 +1,37 @@
+@font-face {
+	font-family: 'Catatan Perjalanan';
+	src: url('./fonts/CatatanPerjalanan.eot');
+	src: url('./fonts/CatatanPerjalanan.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/CatatanPerjalanan.woff2') format('woff2'),
+		url('./fonts/CatatanPerjalanan.woff') format('woff'),
+		url('./fonts/CatatanPerjalanan.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+body{
+	background:#fff4e0;
+	display: flex;
+}
+
+.tripple {
+   display: flex;
+  align-self: flex-start;  
+  background:white;
+}
+.column{
+  border: 15px solid white ;
+}
+.stone_link {
+	font-family: 'Catatan Perjalanan';
+	-webkit-transform: rotate(-90deg);
+	-moz-transform:    rotate(-90deg);
+	-o-transform:      rotate(-90deg);
+	-ms-transform:     rotate(-90deg);
+	transform:         rotate(-90deg);
+	font-size: 28px;
+	padding-left:815px;
+	margin-top: 150px;
+	position: absolute
+}
